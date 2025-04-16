@@ -1,0 +1,8 @@
+build
+.idea/
+!.idea/debugServers
+!.idea/encodings.xml
+!.idea/modules.xml
+!.idea/misc.xml
+!.idea/STM32_Template.iml
+!.idea/vcs.xml
