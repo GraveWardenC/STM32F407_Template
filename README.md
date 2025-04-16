@@ -6,9 +6,9 @@
 ## 🧰 编译环境
 
 - **Toolchain:** `arm-none-eabi-gcc`
-- **构建系统:** CMake >= 3.20
-- **调试器:** OpenOCD / JLinkGdb
-- **系统:** Windows / Linux
+- **构建系统:** `CMake >= 3.20`
+- **调试器:** `OpenOCD` / `JLinkGdb`
+- **系统:** `Windows` / `Linux`
 
 ## 📦 第三方组件
 
@@ -19,5 +19,4 @@
 - [x] 📚 增加文档说明 
 - [x] 🔧 使用Segger RTT作为Debug log
 - [ ] ⚙️ 添加 SysTick 定时器模板作为系统硬件级延时时基
-- [ ] 🔧 解决CmBackTrace无法获取故障时堆栈的bug 
 
