@@ -16,9 +16,9 @@
 📌 每个模板位于独立的分支中，无需使用 sparse-checkout。
 ```bash
 # 查看可用模板分支
-git ls-remote --heads https://repo-url.git
+git ls-remote --heads http://192.168.2.88:9092/chenkai/template.git
 # 获取指定模板（例如使用STM32F4_SPL_CMAKE_NONE模板）
-git clone -b F4_SPL_NONE https://repo-url.git
+git clone -b F4_SPL_NONE http://192.168.2.88:9092/chenkai/template.git
 ```
 
 ## 🧰 编译工具链说明
