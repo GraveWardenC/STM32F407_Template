@@ -16,7 +16,7 @@ target_sources(stm32_spl_base PRIVATE ${STM32_BASE_SRC})
 # 使用 PUBLIC，这样链接到此库的目标会自动获得这些包含路径
 target_include_directories(stm32_spl_base PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}/Inc # 包含 stm32f4xx.h, main.h (如果 CubeMX 生成), stm32f4xx_ll_conf.h 等
-        ${CMAKE_CURRENT_SOURCE_DIR}/CMSIS/Include
+        ${PROJECT_SOURCE_DIR}/User/Include/CMSIS/Include
         ${CMAKE_CURRENT_SOURCE_DIR}/Drivers/STM32F4xx_StdPeriph_Driver/inc
 )
 

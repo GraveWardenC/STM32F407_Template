@@ -11,6 +11,7 @@ add_executable(${EXECUTABLE_NAME}
 )
 # --- 应用层包含目录 ---
 target_include_directories(${EXECUTABLE_NAME} PRIVATE
+        Include/CMSIS
         Include/Core # App/Include 目录，存放你的应用层头文件
         Include/Systick
 )
