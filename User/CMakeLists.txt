@@ -1,34 +1,31 @@
 # 获取顶层项目名称 (在顶层 CMakeLists.txt 中定义的)
 set(EXECUTABLE_NAME ${CMAKE_PROJECT_NAME})
 
+add_subdirectory(Systick)
 # 添加可执行文件目标
 add_executable(${EXECUTABLE_NAME}
-        Src/main.c
-        Src/stm32f4xx_it.c       # 中断处理函数
-        Src/syscalls.c
-        Src/sysmem.c
+        main.c
+        stm32f4xx_it.c
+        SysCall/src/sysmem.c
+        SysCall/src/syscalls.c  #系统调用不生成静态库
 )
-
-# --- 链接底层库 ---
-# 使用 PRIVATE，因为只有这个可执行文件直接链接 stm32_ll_base
-target_link_libraries(${EXECUTABLE_NAME} PRIVATE stm32_spl_base Segger cmbacktrace)
-
 # --- 应用层包含目录 ---
 target_include_directories(${EXECUTABLE_NAME} PRIVATE
-        Inc # App/Inc 目录，存放你的应用层头文件
+        Include/Core # App/Include 目录，存放你的应用层头文件
+        Include/Systick
 )
+# --- 链接底层库 ---
+
+target_link_libraries(${EXECUTABLE_NAME} PRIVATE stm32_spl_base Segger cmbacktrace Systick)
+
 
 # --- 应用层编译定义 ---
 target_compile_definitions(${EXECUTABLE_NAME} PRIVATE
-        # 添加你应用层需要的宏定义
+
 )
 
 # --- 链接器设置 ---
-# 从 stm32_base 获取 Linker Script 路径 (如果上面设置了全局属性或缓存变量)
-# 或者直接使用相对路径:
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/stm32_base/STM32F407VGTX_FLASH.ld)
-#get_property(LINKER_SCRIPT GLOBAL PROPERTY STM32_LINKER_SCRIPT) # 如果使用 set_property(GLOBAL...)
-# 或者直接引用 Cache 变量: set(LINKER_SCRIPT ${STM32_LINKER_SCRIPT})
 
 # 检查 LINKER_SCRIPT 是否有效
 if(NOT EXISTS ${LINKER_SCRIPT})
@@ -39,14 +36,6 @@ endif()
 # 这些选项通常在工具链文件中设置，但也可以在这里指定
 target_link_options(${EXECUTABLE_NAME} PRIVATE
         -T${LINKER_SCRIPT}
-        # --- 以下选项通常在工具链文件中设置 ---
-        # -mcpu=cortex-m4
-        # -mthumb
-        # --specs=nosys.specs
-        # --specs=nano.specs # 如果使用 newlib-nano
-        # -Wl,-Map=${CMAKE_PROJECT_NAME}.map # 生成 Map 文件
-        # -Wl,--gc-sections # 移除未使用的代码段
-        # ---------------------------------------
 )
 
 # 使 CMake 知道 Linker Script 是一个依赖项
