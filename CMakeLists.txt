@@ -11,16 +11,18 @@ project(${CMAKE_PROJECT_NAME} LANGUAGES C ASM)
 
 
 # 全局编译选项
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
 
 message(INFO " Build App for target STM32F407")
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/CmBackTrace/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Segger/inc)
-
-
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/inc)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/CMSIS/inc)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/Drivers/ST)
 
 # 子目录添加
 add_subdirectory(stm32_Base)
