@@ -1,6 +1,6 @@
 #include "stm32f4xx_it.h"
-#include <cm_backtrace.h>
 #include"systick.h"
+
 
 /******************************************************************************/
 /*           Cortex-M4 Processor Interruption and Exception Handlers          */
@@ -18,15 +18,17 @@ void NMI_Handler(void)
 /**
  * @brief This function handles Hard fault interrupt.
  */
+
 void HardFault_Handler(void)
 {
-    register uint32_t lr __asm("lr");
-    register uint32_t sp __asm("sp");
-    cm_backtrace_fault(lr, sp);
+    asm __volatile (
+        "tst    LR, #4\n"           // Check EXC_RETURN in Link register bit 2.
+        "ite    EQ\n"
+        "mrseq  R0, MSP\n"            // Stacking was using MSP.
+        "mrsne  R0, PSP\n"            // Stacking was using PSP.
+        "b      HardFaultHandler"   // Stack pointer passed through R0.
+    );
 
-    while (1)
-    {
-    }
 }
 
 /**
@@ -88,4 +90,6 @@ void SysTick_Handler(void)
 {
     sysIncTick();
 }
+
+
 

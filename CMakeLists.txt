@@ -27,7 +27,6 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/Drivers/ST)
 # 子目录添加
 add_subdirectory(stm32_Base)
 add_subdirectory(Segger)
-add_subdirectory(CmBackTrace)
 add_subdirectory(User)
 
 if(NOT CMAKE_BUILD_TYPE)

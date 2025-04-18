@@ -2,6 +2,7 @@
 set(EXECUTABLE_NAME ${CMAKE_PROJECT_NAME})
 
 add_subdirectory(Systick)
+add_subdirectory(HardFault)
 # 添加可执行文件目标
 add_executable(${EXECUTABLE_NAME}
         main.c
@@ -17,7 +18,7 @@ target_include_directories(${EXECUTABLE_NAME} PRIVATE
 )
 # --- 链接底层库 ---
 
-target_link_libraries(${EXECUTABLE_NAME} PRIVATE stm32_spl_base Segger cmbacktrace Systick)
+target_link_libraries(${EXECUTABLE_NAME} PRIVATE stm32_spl_base Segger Systick HardFault)
 
 
 # --- 应用层编译定义 ---

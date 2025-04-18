@@ -2,16 +2,16 @@
 // Created by 15185 on 25-4-14.
 //
 #include <SEGGER_RTT.h>
-#include <cm_backtrace.h>
 #include <common_esw_errno.h>
 #include <stdio.h>
 #include <stm32f4xx.h>
 #include <stm32f4xx_rcc.h>
 #include "systemRcc.h"
 #include "systick.h"
-
+#include "export.h"
+volatile uint32_t count = 0;
 void userSystemInit(void);
-
+void fault_test_by_div0(void);
 int main(void)
 {
     userSystemInit();
@@ -24,11 +24,14 @@ int main(void)
     GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
     GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
     GPIO_Init(GPIOC, &GPIO_InitStruct);
+
     while (1)
     {
         GPIO_ToggleBits(GPIOC, GPIO_Pin_1);
         sysDelayMs(100);
-        SEGGER_RTT_printf(0,"format \n");
+        count++;
+        if (count == 100)
+            fault_test_by_div0();
     }
 }
 
@@ -47,7 +50,7 @@ void userSystemInit(void)
     {
         SEGGER_RTT_WriteString(0, RccWarning);
     }
-    else if (ERRNO_NULL_POINTER == ret )
+    else if (ERRNO_NULL_POINTER == ret)
     {
         SEGGER_RTT_WriteString(0, RccNullptr);
     }
@@ -89,5 +92,18 @@ void userSystemInit(void)
     SEGGER_RTT_printf(0, "PCLK1 = %d\n", frequency.PCLK1_Frequency);
     SEGGER_RTT_printf(0, "PCLK2 = %d\n", frequency.PCLK2_Frequency);
 #endif
+}
 
+
+void fault_test_by_div0(void)
+{
+    volatile int *SCB_CCR = (volatile int *) 0xE000ED14; // SCB->CCR
+    int x, y, z;
+
+    *SCB_CCR |= (1 << 4); /* bit4: DIV_0_TRP. */
+
+    x = 10;
+    y = 0;
+    z = x / y;
+    printf("z:%d\n", z);
 }
