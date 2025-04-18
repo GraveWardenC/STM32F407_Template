@@ -307,7 +307,7 @@ struct cmb_hard_fault_regs{
 #define CMB_ASSERT(EXPR)                                                       \
 if (!(EXPR))                                                                   \
 {                                                                              \
-    cmb_println("(%s) has assert failed at %s.", #EXPR, __FUNCTION__);         \
+    cmb_println("(%s) has assert failed at %s.", #EXPR, __func__);         \
     while (1);                                                                 \
 }
 
