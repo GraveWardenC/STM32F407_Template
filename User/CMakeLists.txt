@@ -18,7 +18,12 @@ target_include_directories(${EXECUTABLE_NAME} PRIVATE
 )
 # --- 链接底层库 ---
 
-target_link_libraries(${EXECUTABLE_NAME} PRIVATE stm32_spl_base Segger Systick HardFault)
+target_link_libraries(${EXECUTABLE_NAME} PRIVATE
+        stm32_spl_base
+        Segger
+        Systick
+        HardFault
+)
 
 
 # --- 应用层编译定义 ---
