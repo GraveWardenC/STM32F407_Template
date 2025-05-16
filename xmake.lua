@@ -109,9 +109,9 @@ target("APP")
         os.exec("arm-none-eabi-objcopy -O binary %s %s", elf, bin)
         os.exec("ls -lh %s", bin)
         
-        print("\nMemory region         Used Size  Region Size  age Used(%)")
-        print(string.format("%16s: %10s %10s %10.2f%%", "CCMRAM", format_size(ccm_used), format_size(ccm_limit), 100 * ccm_used / ccm_limit))
-        print(string.format("%16s: %10s %10s %10.2f%%", "RAM", format_size(ram_used), format_size(ram_limit), 100 * ram_used / ram_limit))
-        print(string.format("%16s: %10s %10s %10.2f%%", "ROM", format_size(rom_used), format_size(flash_limit), 100 * rom_used / flash_limit))
+        print("\nMemory region         Used Size  Region Size  age Used()")
+        print(string.format("%16s: %10s %10s %10.2f%%", "CCMRAM", string.format("%d B", ccm_used), format_size(ccm_limit), 100 * ccm_used / ccm_limit))
+        print(string.format("%16s: %10s %10s %10.2f%%", "RAM",string.format("%d B", ram_used) , format_size(ram_limit), 100 * ram_used / ram_limit))
+        print(string.format("%16s: %10s %10s %10.2f%%", "ROM",string.format("%d B", rom_used), format_size(flash_limit), 100 * rom_used / flash_limit))
     end)
 
