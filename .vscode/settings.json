@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        ".clang-format": "c",
+        "stm32f4xx_conf.h": "c"
+    }
+}
