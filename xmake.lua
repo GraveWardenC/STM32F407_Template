@@ -67,4 +67,51 @@ target("APP")
     -- add_links("bin/liboutput/libstm32f4spl.a")
     add_deps("stm32f4spl")
     add_ldflags("-T Board/STM32F407VGTX_FLASH.ld")
+    
+    after_build(function (target)
+        -- local elf = target:targetfile()
+        -- print(">>> ELF 段信息:")
+        -- os.exec("arm-none-eabi-size -A %s", elf)
+        -- print("\n>>> 汇总信息:")
+        -- os.exec("arm-none-eabi-size %s", elf)
+        local elf = target:targetfile()
+        local flash_limit = 1024 * 1024    -- 1MB Flash
+        local ram_limit   = 128 * 1024     -- 128KB RAM
+        local ccm_limit   = 64 * 1024      -- 64KB CCMRAM
+
+        -- 获取段大小
+        local result = os.iorunv("arm-none-eabi-size", { elf })
+        local text, data, bss = result:match("(%d+)%s+(%d+)%s+(%d+)")
+        if not text or not data or not bss then
+            print("arm-none-eabi-size 输出解析失败:\n" .. result)
+            return
+        end
+
+        text, data, bss = tonumber(text), tonumber(data), tonumber(bss)
+
+        local rom_used = text + data
+        local ram_used = data + bss
+        local ccm_used = 0  -- 可扩展，如果使用了 .ccmram 段
+
+    -- 输出格式美化
+        local function format_size(bytes)
+            if bytes >= 1024 * 1024 then
+                return string.format("%.0f MB", bytes / (1024 * 1024))
+            elseif bytes >= 1024 then
+                return string.format("%.0f KB", bytes / 1024)
+            else
+                return string.format("%d B", bytes)
+            end
+        end
+
+        print("\n>>> 生成 BIN 并显示大小:")
+        local bin = path.join(target:targetdir(), "APP.bin")
+        os.exec("arm-none-eabi-objcopy -O binary %s %s", elf, bin)
+        os.exec("ls -lh %s", bin)
+        
+        print("\nMemory region         Used Size  Region Size  age Used(%)")
+        print(string.format("%16s: %10s %10s %10.2f%%", "CCMRAM", format_size(ccm_used), format_size(ccm_limit), 100 * ccm_used / ccm_limit))
+        print(string.format("%16s: %10s %10s %10.2f%%", "RAM", format_size(ram_used), format_size(ram_limit), 100 * ram_used / ram_limit))
+        print(string.format("%16s: %10s %10s %10.2f%%", "ROM", format_size(rom_used), format_size(flash_limit), 100 * rom_used / flash_limit))
+    end)
 

@@ -1,3 +1,6 @@
 .xmake
 build
 build.log
+bin/liboutput/APP.elf
+bin/liboutput/APP.bin
+bin/liboutput/APP.elf

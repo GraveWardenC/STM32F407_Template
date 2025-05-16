@@ -1,36 +1,6 @@
 [
 {
   "directory": "d:\\Project",
-  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Board\\startup_stm32f40xx.s.o", "Board\\startup_stm32f40xx.s"],
-  "file": "Board\\startup_stm32f40xx.s"
-},
-{
-  "directory": "d:\\Project",
-  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\main.c.o", "Core\\src\\main.c"],
-  "file": "Core\\src\\main.c"
-},
-{
-  "directory": "d:\\Project",
-  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\stm32f4xx_it.c.o", "Core\\src\\stm32f4xx_it.c"],
-  "file": "Core\\src\\stm32f4xx_it.c"
-},
-{
-  "directory": "d:\\Project",
-  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\syscalls.c.o", "Core\\src\\syscalls.c"],
-  "file": "Core\\src\\syscalls.c"
-},
-{
-  "directory": "d:\\Project",
-  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\sysmem.c.o", "Core\\src\\sysmem.c"],
-  "file": "Core\\src\\sysmem.c"
-},
-{
-  "directory": "d:\\Project",
-  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\system_stm32f4xx.c.o", "Core\\src\\system_stm32f4xx.c"],
-  "file": "Core\\src\\system_stm32f4xx.c"
-},
-{
-  "directory": "d:\\Project",
   "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\Inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\stm32f4spl\\arm\\x86_64\\release\\Drivers\\STM32F4xx_StdPeriph_Driver\\src\\misc.c.o", "Drivers\\STM32F4xx_StdPeriph_Driver\\src\\misc.c"],
   "file": "Drivers\\STM32F4xx_StdPeriph_Driver\\src\\misc.c"
 },
@@ -238,4 +208,34 @@
   "directory": "d:\\Project",
   "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\Inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\stm32f4spl\\arm\\x86_64\\release\\Drivers\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_wwdg.c.o", "Drivers\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_wwdg.c"],
   "file": "Drivers\\STM32F4xx_StdPeriph_Driver\\src\\stm32f4xx_wwdg.c"
+},
+{
+  "directory": "d:\\Project",
+  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Board\\startup_stm32f40xx.s.o", "Board\\startup_stm32f40xx.s"],
+  "file": "Board\\startup_stm32f40xx.s"
+},
+{
+  "directory": "d:\\Project",
+  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\main.c.o", "Core\\src\\main.c"],
+  "file": "Core\\src\\main.c"
+},
+{
+  "directory": "d:\\Project",
+  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\stm32f4xx_it.c.o", "Core\\src\\stm32f4xx_it.c"],
+  "file": "Core\\src\\stm32f4xx_it.c"
+},
+{
+  "directory": "d:\\Project",
+  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\syscalls.c.o", "Core\\src\\syscalls.c"],
+  "file": "Core\\src\\syscalls.c"
+},
+{
+  "directory": "d:\\Project",
+  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\sysmem.c.o", "Core\\src\\sysmem.c"],
+  "file": "Core\\src\\sysmem.c"
+},
+{
+  "directory": "d:\\Project",
+  "arguments": ["D:\\ST\\CubeCli\\STM32CubeCLT_1.18.0\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe", "-c", "-IDrivers\\CMSIS\\Include", "-IDrivers\\CMSIS\\Device\\ST\\STM32F4xx\\Include", "-IDrivers\\STM32F4xx_StdPeriph_Driver\\inc", "-ICore\\inc", "-mcpu=cortex-m4", "-mthumb", "-mfpu=fpv4-sp-d16", "-DSTM32F40_41xxx", "-DUSE_STDPERIPH_DRIVER", "-DHSE_VALUE=8000000", "-ffunction-sections", "-fdata-sections", "-Wall", "-o", "build\\.objs\\APP\\arm\\x86_64\\release\\Core\\src\\system_stm32f4xx.c.o", "Core\\src\\system_stm32f4xx.c"],
+  "file": "Core\\src\\system_stm32f4xx.c"
 }]
