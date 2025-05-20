@@ -24,7 +24,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Package/Lib)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Segger/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/inc)
-include_directories(User/Include/CMSIS/inc)
+include_directories(Main/Include/CMSIS/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/Drivers/ST)
 
 # 子目录添加
