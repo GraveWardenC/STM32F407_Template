@@ -16,8 +16,6 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
 
-set(R "${Esc}[0;31m")   #红色
-set(E "${Esc}[m" )
 
 message("------Build App for target STM32F407VGT6------")
 
@@ -32,7 +30,7 @@ include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/Drivers/ST)
 # 子目录添加
 add_subdirectory(stm32_Base)
 add_subdirectory(Segger)
-add_subdirectory(User)
+add_subdirectory(Main)
 
 if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type (Debug, Release)" FORCE)

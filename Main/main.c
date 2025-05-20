@@ -6,9 +6,9 @@
 #include <stdio.h>
 #include <stm32f4xx.h>
 #include <stm32f4xx_rcc.h>
+#include "export.h"
 #include "systemRcc.h"
 #include "systick.h"
-#include "export.h"
 volatile uint32_t count = 0;
 void userSystemInit(void);
 void fault_test_by_div0(void);
