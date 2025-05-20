@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Config Project",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S .",
+        "-B build",
+        "-G Ninja"
+      ],
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "ninja",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/build"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": [
+        "CMake 生成构建文件"
+      ]
+    },
+    {
+      "label": "flash",
+      "type": "shell",
+      "command": "jlink",
+      "args": [
+        "--device",
+        "STM32F103C8",
+      ],
+    }
+  ]
+}

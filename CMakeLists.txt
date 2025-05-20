@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.25)
 
 
 # 编译链
@@ -16,9 +16,14 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
 
-message(INFO " Build App for target STM32F407")
+set(R "${Esc}[0;31m")   #红色
+set(E "${Esc}[m" )
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR}/CmBackTrace/inc)
+message("------Build App for target STM32F407VGT6------")
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Package/Output)
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Package/Lib)
+
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Segger/inc)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/STM32_Base/inc)
 include_directories(User/Include/CMSIS/inc)
