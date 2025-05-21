@@ -1,0 +1,4 @@
+halt
+loadfile D:\TemplateVscode\template\Package\Output\TEMPLATE.elf
+r
+q

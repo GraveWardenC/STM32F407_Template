@@ -18,7 +18,7 @@ if(CMAKE_HOST_SYSTEM_NAME STREQUAL "Windows")
         set(CMAKE_AR "$ENV{ARM_CROSS_BUILD_GENERIC_PATH}/arm-none-eabi-ar.exe")
         set(CMAKE_OBJCOPY "$ENV{ARM_CROSS_BUILD_GENERIC_PATH}/arm-none-eabi-objcopy.exe")
         set(CMAKE_OBJDUMP "$ENV{ARM_CROSS_BUILD_GENERIC_PATH}/arm-none-eabi-objdump.exe")
-        set(SIZE "$ENV{ARM_CROSS_BUILD_GENERIC_PATH}/arm-none-eabi-size.exe")
+        set(CMAKE_SIZE "$ENV{ARM_CROSS_BUILD_GENERIC_PATH}/arm-none-eabi-size.exe")
     else()
         message(FATAL_ERROR "NOT DEFINED ARM_CROSS_BUILD_GENERIC_PATH VARIABLES")
     endif()
@@ -29,7 +29,7 @@ elseif (CMAKE_HOST_SYSTEM_NAME STREQUAL "Linux")
     set(CMAKE_AR "/usr/bin/arm-none-eabi-ar")
     set(CMAKE_OBJCOPY "/usr/bin/arm-none-eabi-objcopy")
     set(CMAKE_OBJDUMP "/usr/bin/arm-none-eabi-objdump")
-    set(SIZE "/usr/bin/arm-none-eabi-size")
+    set(CMAKE_SIZE "/usr/bin/arm-none-eabi-size")
 endif ()
 
 # toolchain flags
@@ -38,7 +38,8 @@ set(MFPU                        "-mfpu=fpv4-sp-d16")
 set(MFLOAT_ABI                  "-mfloat-abi=hard")
 set(RUNTIME_LIBRARY             "--specs=nano.specs")
 set(RUNTIME_LIBRARY_SYSCALLS    "--specs=nosys.specs")
-set (LINKER_SCRIPT              "../STM32F407VGTX_FLASH.ld")
+set(LINKER_SCRIPT              "../STM32F407VGTX_FLASH.ld")
+set(MAP_SET                     "-Wl,-Map=${PROJECT_ROOT_DIR}/Package/Output/Project.map")
 
 set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
@@ -54,15 +55,13 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 
 set (CMAKE_C_FLAGS "${MCPU} -std=gnu11 ${MFPU} ${MFLOAT_ABI} ${RUNTIME_LIBRARY} -mthumb -Wall -Werror")
-set (CMAKE_EXE_LINKER_FLAGS "-T${LINKER_SCRIPT} ${RUNTIME_LIBRARY_SYSCALLS} -Wl,-Map=test.map -Wl,--gc-sections -static -Wl,--start-group -lc -lm -Wl,--end-group")
+set (CMAKE_EXE_LINKER_FLAGS "-T${LINKER_SCRIPT} ${RUNTIME_LIBRARY_SYSCALLS} ${MAP_SET} -Wl,--gc-sections -static -Wl,--start-group -lc -lm -Wl,--end-group")
 set (CMAKE_ASM_FLAGS "${CMAKE_C_FLAGS} -x assembler-with-cpp")
 
 set(CMAKE_C_FLAGS_DEBUG "-O0 -g3")
 set(CMAKE_C_FLAGS_RELEASE "-Os -g0 -ggdb")
 set(CMAKE_CXX_FLAGS_DEBUG "-O0 -g3")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2 -g0")
-
-# set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -fno-rtti -fno-exceptions -fno-threadsafe-statics -fdiagnostics-color=auto")
 
 
 # if(CMAKE_BUILD_TYPE STREQUAL "Release")

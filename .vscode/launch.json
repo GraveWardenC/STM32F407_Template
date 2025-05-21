@@ -1,31 +1,31 @@
+// .vscode/launch.json
 {
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb)Debug",
+            "name": "GDB Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "E:\\exsample\\test.elf",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
+            "program": "${workspaceFolder}/Package/Output/TEMPLATE.elf",
+            "cwd": "${workspaceFolder}",
             "MIMode": "gdb",
-            "miDebuggerPath": "D:/Program Files/Atmel/Studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/arm-none-eabi-gdb.exe",
-            "miDebuggerServerAddress": "localhost:2331",
+            "miDebuggerPath": "arm-none-eabi-gdb",
             "setupCommands": [
                 {
-                    "description": "为 gdb 启用整齐打印",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
+                    "text": "target remote localhost:2331"
                 },
                 {
-                    "description": "将反汇编风格设置为 Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
+                    "text": "monitor reset"
+                },
+                {
+                    "text": "file"
+                },
+                {
+                    "text": "b main"
                 }
-            ]
+            ],
+            "preLaunchTask": "start-gdbserver",
+            "postDebugTask": "kill-gdbserver"
         }
     ]
 }
