@@ -307,7 +307,6 @@ Discarded input sections
  .group         0x00000000        0xc Project/CMakeFiles/TEMPLATE.dir/main.c.obj
  .group         0x00000000        0xc Project/CMakeFiles/TEMPLATE.dir/main.c.obj
  .data          0x00000000        0x0 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
- .bss           0x00000000        0x0 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
  .group         0x00000000        0xc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .group         0x00000000        0xc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .group         0x00000000        0xc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
@@ -415,7 +414,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .debug_macro   0x00000000       0xce Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .debug_line    0x00000000      0x5ec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
- .debug_str     0x00000000     0x99bb Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
+ .debug_str     0x00000000     0x99cf Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .debug_frame   0x00000000      0x2ac Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/syscalls.c.obj
  .ARM.attributes
@@ -475,7 +474,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
  .debug_macro   0x00000000      0x1df Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
  .debug_line    0x00000000      0x3e4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
- .debug_str     0x00000000     0x7759 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
+ .debug_str     0x00000000     0x776d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
  .debug_frame   0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Syscall/sysmem.c.obj
  .ARM.attributes
@@ -569,7 +568,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
  .debug_macro   0x00000000       0x79 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
  .debug_line    0x00000000      0x73d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
- .debug_str     0x00000000    0x62241 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
+ .debug_str     0x00000000    0x62255 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
  .debug_frame   0x00000000       0xd8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/misc.c.obj
  .ARM.attributes
@@ -663,7 +662,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
  .debug_macro   0x00000000      0x44e Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
  .debug_line    0x00000000      0xb27 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
- .debug_str     0x00000000    0x62946 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
+ .debug_str     0x00000000    0x6295a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
  .debug_frame   0x00000000      0x5ec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_adc.c.obj
  .ARM.attributes
@@ -757,7 +756,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
  .debug_macro   0x00000000      0x3c9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
  .debug_line    0x00000000      0xe4d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
- .debug_str     0x00000000    0x62789 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
+ .debug_str     0x00000000    0x6279d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
  .debug_frame   0x00000000      0x3f8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_can.c.obj
  .ARM.attributes
@@ -851,7 +850,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
  .debug_line    0x00000000      0x675 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
- .debug_str     0x00000000    0x61fcc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
+ .debug_str     0x00000000    0x61fe0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cec.c.obj
@@ -944,7 +943,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
  .debug_line    0x00000000      0x6cd Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
- .debug_str     0x00000000    0x62093 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
+ .debug_str     0x00000000    0x620a7 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
  .debug_frame   0x00000000       0xe8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_crc.c.obj
  .ARM.attributes
@@ -1038,7 +1037,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
  .debug_macro   0x00000000      0x13c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
  .debug_line    0x00000000      0xa9a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
- .debug_str     0x00000000    0x62548 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
+ .debug_str     0x00000000    0x6255c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
  .debug_frame   0x00000000      0x2ec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp.c.obj
  .ARM.attributes
@@ -1132,7 +1131,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
  .debug_macro   0x00000000      0x13c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
  .debug_line    0x00000000     0x2086 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
- .debug_str     0x00000000    0x623e1 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
+ .debug_str     0x00000000    0x623f5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
  .debug_frame   0x00000000       0xe0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_aes.c.obj
  .ARM.attributes
@@ -1226,7 +1225,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
  .debug_macro   0x00000000      0x13c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
  .debug_line    0x00000000      0x88f Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
- .debug_str     0x00000000    0x622e2 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
+ .debug_str     0x00000000    0x622f6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
  .debug_frame   0x00000000       0x60 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_des.c.obj
  .ARM.attributes
@@ -1320,7 +1319,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
  .debug_macro   0x00000000      0x13c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
  .debug_line    0x00000000      0x96c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
- .debug_str     0x00000000    0x622e9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
+ .debug_str     0x00000000    0x622fd Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
  .debug_frame   0x00000000       0x60 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_cryp_tdes.c.obj
  .ARM.attributes
@@ -1414,7 +1413,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
  .debug_macro   0x00000000      0x17b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
  .debug_line    0x00000000      0x885 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
- .debug_str     0x00000000    0x623bb Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
+ .debug_str     0x00000000    0x623cf Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
  .debug_frame   0x00000000      0x2ac Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dac.c.obj
  .ARM.attributes
@@ -1508,7 +1507,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
  .debug_macro   0x00000000       0xac Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
  .debug_line    0x00000000      0x6e3 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
- .debug_str     0x00000000    0x620b1 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
+ .debug_str     0x00000000    0x620c5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
  .debug_frame   0x00000000       0xc8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dbgmcu.c.obj
  .ARM.attributes
@@ -1602,7 +1601,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
  .debug_macro   0x00000000      0x140 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
  .debug_line    0x00000000      0x849 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
- .debug_str     0x00000000    0x62321 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
+ .debug_str     0x00000000    0x62335 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
  .debug_frame   0x00000000      0x258 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dcmi.c.obj
  .ARM.attributes
@@ -1696,7 +1695,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
  .debug_macro   0x00000000      0x655 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
  .debug_line    0x00000000      0x679 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
- .debug_str     0x00000000    0x61fd0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
+ .debug_str     0x00000000    0x61fe4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dfsdm.c.obj
@@ -1789,7 +1788,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
  .debug_macro   0x00000000      0x471 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
  .debug_line    0x00000000      0xa0d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
- .debug_str     0x00000000    0x626a6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
+ .debug_str     0x00000000    0x626ba Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
  .debug_frame   0x00000000      0x308 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma.c.obj
  .ARM.attributes
@@ -1885,7 +1884,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
  .debug_macro   0x00000000      0x218 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
  .debug_line    0x00000000      0xa11 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
- .debug_str     0x00000000    0x637a1 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
+ .debug_str     0x00000000    0x637b5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
  .debug_frame   0x00000000      0x2ec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dma2d.c.obj
  .ARM.attributes
@@ -1979,7 +1978,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
  .debug_line    0x00000000      0x675 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
- .debug_str     0x00000000    0x61fcc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
+ .debug_str     0x00000000    0x61fe0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_dsi.c.obj
@@ -2072,7 +2071,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
  .debug_macro   0x00000000       0xac Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
  .debug_line    0x00000000      0x7ae Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
- .debug_str     0x00000000    0x621b6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
+ .debug_str     0x00000000    0x621ca Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
  .debug_frame   0x00000000      0x148 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_exti.c.obj
  .ARM.attributes
@@ -2166,7 +2165,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
  .debug_macro   0x00000000      0x412 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
  .debug_line    0x00000000      0xb66 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
- .debug_str     0x00000000    0x6250a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
+ .debug_str     0x00000000    0x6251e Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
  .debug_frame   0x00000000      0x5b0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.c.obj
  .ARM.attributes
@@ -2263,7 +2262,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
  .debug_line    0x00000000      0x6bc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
- .debug_str     0x00000000    0x6208d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
+ .debug_str     0x00000000    0x620a1 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
  .debug_frame   0x00000000       0x60 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash_ramfunc.c.obj
  .ARM.attributes
@@ -2357,7 +2356,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
  .debug_line    0x00000000      0x67b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
- .debug_str     0x00000000    0x61fd2 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
+ .debug_str     0x00000000    0x61fe6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fmpi2c.c.obj
@@ -2451,7 +2450,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
  .debug_macro   0x00000000      0x273 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
  .debug_line    0x00000000      0xd20 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
- .debug_str     0x00000000    0x62757 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
+ .debug_str     0x00000000    0x6276b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
  .debug_frame   0x00000000      0x300 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_fsmc.c.obj
  .ARM.attributes
@@ -2626,7 +2625,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
  .debug_macro   0x00000000       0xbb Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
  .debug_line    0x00000000      0x8a0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
- .debug_str     0x00000000    0x622ba Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
+ .debug_str     0x00000000    0x622ce Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
  .debug_frame   0x00000000      0x2bc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash.c.obj
  .ARM.attributes
@@ -2720,7 +2719,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
  .debug_macro   0x00000000       0xbb Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
  .debug_line    0x00000000      0x8e5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
- .debug_str     0x00000000    0x621d8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
+ .debug_str     0x00000000    0x621ec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
  .debug_frame   0x00000000       0x58 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_md5.c.obj
  .ARM.attributes
@@ -2814,7 +2813,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
  .debug_macro   0x00000000       0xbb Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
  .debug_line    0x00000000      0x90c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
- .debug_str     0x00000000    0x621de Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
+ .debug_str     0x00000000    0x621f2 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
  .debug_frame   0x00000000       0x5c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_hash_sha1.c.obj
  .ARM.attributes
@@ -2908,7 +2907,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
  .debug_macro   0x00000000      0x2b4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
  .debug_line    0x00000000      0xa95 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
- .debug_str     0x00000000    0x62587 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
+ .debug_str     0x00000000    0x6259b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
  .debug_frame   0x00000000      0x580 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_i2c.c.obj
  .ARM.attributes
@@ -3002,7 +3001,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
  .debug_macro   0x00000000       0x5e Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
  .debug_line    0x00000000      0x6c7 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
- .debug_str     0x00000000    0x620f6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
+ .debug_str     0x00000000    0x6210a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
  .debug_frame   0x00000000       0xf0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c.obj
  .ARM.attributes
@@ -3096,7 +3095,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
  .debug_line    0x00000000      0x679 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
- .debug_str     0x00000000    0x61fd0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
+ .debug_str     0x00000000    0x61fe4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_lptim.c.obj
@@ -3191,7 +3190,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
  .debug_macro   0x00000000      0x234 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
  .debug_line    0x00000000      0xbc1 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
- .debug_str     0x00000000    0x63a40 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
+ .debug_str     0x00000000    0x63a54 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
  .debug_frame   0x00000000      0x4b4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_ltdc.c.obj
  .ARM.attributes
@@ -3285,7 +3284,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
  .debug_macro   0x00000000       0xe5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
  .debug_line    0x00000000      0x7bf Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
- .debug_str     0x00000000    0x625c2 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
+ .debug_str     0x00000000    0x625d6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
  .debug_frame   0x00000000      0x27c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_pwr.c.obj
  .ARM.attributes
@@ -3379,7 +3378,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
  .debug_line    0x00000000      0x677 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
- .debug_str     0x00000000    0x61fd1 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
+ .debug_str     0x00000000    0x61fe5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_qspi.c.obj
@@ -3554,7 +3553,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
  .debug_macro   0x00000000       0x3a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
  .debug_line    0x00000000      0x70d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
- .debug_str     0x00000000    0x620d8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
+ .debug_str     0x00000000    0x620ec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
  .debug_frame   0x00000000      0x13c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rng.c.obj
  .ARM.attributes
@@ -3648,7 +3647,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
  .debug_macro   0x00000000      0x596 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
  .debug_line    0x00000000     0x12f9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
- .debug_str     0x00000000    0x62be9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
+ .debug_str     0x00000000    0x62bfd Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
  .debug_frame   0x00000000      0x8b0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rtc.c.obj
  .ARM.attributes
@@ -3744,7 +3743,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
  .debug_macro   0x00000000      0x353 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
  .debug_line    0x00000000      0x8ff Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
- .debug_str     0x00000000    0x64457 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
+ .debug_str     0x00000000    0x6446b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
  .debug_frame   0x00000000      0x3f4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sai.c.obj
  .ARM.attributes
@@ -3838,7 +3837,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
  .debug_macro   0x00000000      0x33b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
  .debug_line    0x00000000      0x8c4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
- .debug_str     0x00000000    0x629f0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
+ .debug_str     0x00000000    0x62a04 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
  .debug_frame   0x00000000      0x48c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_sdio.c.obj
  .ARM.attributes
@@ -3932,7 +3931,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x279 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
  .debug_line    0x00000000      0x67d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
- .debug_str     0x00000000    0x61fd4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
+ .debug_str     0x00000000    0x61fe8 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
  .ARM.attributes
                 0x00000000       0x34 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spdifrx.c.obj
@@ -4025,7 +4024,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
  .debug_macro   0x00000000      0x366 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
  .debug_line    0x00000000      0xa63 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
- .debug_str     0x00000000    0x625ff Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
+ .debug_str     0x00000000    0x62613 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
  .debug_frame   0x00000000      0x3f4 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_spi.c.obj
  .ARM.attributes
@@ -4119,7 +4118,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
  .debug_macro   0x00000000      0x10e Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
  .debug_line    0x00000000      0x708 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
- .debug_str     0x00000000    0x6241d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
+ .debug_str     0x00000000    0x62431 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
  .debug_frame   0x00000000      0x11c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.obj
  .ARM.attributes
@@ -4213,7 +4212,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
  .debug_macro   0x00000000      0x735 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
  .debug_line    0x00000000     0x10e9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
- .debug_str     0x00000000    0x62d0d Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
+ .debug_str     0x00000000    0x62d21 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
  .debug_frame   0x00000000      0xe54 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.obj
  .ARM.attributes
@@ -4307,7 +4306,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
  .debug_macro   0x00000000      0x21a Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
  .debug_line    0x00000000      0xa78 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
- .debug_str     0x00000000    0x6263b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
+ .debug_str     0x00000000    0x6264f Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
  .debug_frame   0x00000000      0x490 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.c.obj
  .ARM.attributes
@@ -4401,7 +4400,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
  .debug_macro   0x00000000       0x2e Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
  .debug_line    0x00000000      0x6fd Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
- .debug_str     0x00000000    0x621e6 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
+ .debug_str     0x00000000    0x621fa Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
  .comment       0x00000000       0x44 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
  .debug_frame   0x00000000      0x134 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_wwdg.c.obj
  .ARM.attributes
@@ -4524,258 +4523,258 @@ LOAD D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-no
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x4)
 
-.text           0x08000188     0x1338
+.text           0x08000188     0x134c
                 0x08000188                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x40 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
- .text          0x080001c8       0x7c Project/CMakeFiles/TEMPLATE.dir/main.c.obj
+ .text          0x080001c8       0x90 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
                 0x080001c8                delay
                 0x080001ec                main
- .text          0x08000244      0x4dc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
-                0x08000244                GPIO_DeInit
-                0x080003a8                GPIO_Init
-                0x080004c6                GPIO_StructInit
-                0x080004fa                GPIO_PinLockConfig
-                0x0800053e                GPIO_ReadInputDataBit
-                0x08000572                GPIO_ReadInputData
-                0x0800058c                GPIO_ReadOutputDataBit
-                0x080005c0                GPIO_ReadOutputData
-                0x080005da                GPIO_SetBits
-                0x080005f8                GPIO_ResetBits
-                0x08000618                GPIO_WriteBit
-                0x0800064a                GPIO_Write
-                0x08000668                GPIO_ToggleBits
-                0x0800068c                GPIO_PinAFConfig
- .text          0x08000720      0xcec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
-                0x08000720                RCC_DeInit
-                0x08000790                RCC_HSEConfig
-                0x080007b8                RCC_WaitForHSEStartUp
-                0x08000808                RCC_AdjustHSICalibrationValue
-                0x08000844                RCC_HSICmd
-                0x08000864                RCC_LSEConfig
-                0x080008a8                RCC_LSICmd
-                0x080008c8                RCC_PLLConfig
-                0x08000908                RCC_PLLCmd
-                0x08000928                RCC_PLLI2SConfig
-                0x08000954                RCC_PLLI2SCmd
-                0x08000974                RCC_PLLSAIConfig
-                0x080009a8                RCC_PLLSAICmd
-                0x080009c8                RCC_ClockSecuritySystemCmd
-                0x080009e8                RCC_MCO1Config
-                0x08000a28                RCC_MCO2Config
-                0x08000a68                RCC_SYSCLKConfig
-                0x08000aa0                RCC_GetSYSCLKSource
-                0x08000ac0                RCC_HCLKConfig
-                0x08000af8                RCC_PCLK1Config
-                0x08000b30                RCC_PCLK2Config
-                0x08000b6c                RCC_GetClocksFreq
-                0x08000cc8                RCC_RTCCLKConfig
-                0x08000d24                RCC_RTCCLKCmd
-                0x08000d44                RCC_BackupResetCmd
-                0x08000d64                RCC_I2SCLKConfig
-                0x08000d84                RCC_SAIBlockACLKConfig
-                0x08000dc0                RCC_SAIBlockBCLKConfig
-                0x08000dfc                RCC_SAIPLLI2SClkDivConfig
-                0x08000e3c                RCC_SAIPLLSAIClkDivConfig
-                0x08000e7c                RCC_LTDCCLKDivConfig
-                0x08000eb8                RCC_TIMCLKPresConfig
-                0x08000ed8                RCC_AHB1PeriphClockCmd
-                0x08000f18                RCC_AHB2PeriphClockCmd
-                0x08000f58                RCC_AHB3PeriphClockCmd
-                0x08000f98                RCC_APB1PeriphClockCmd
-                0x08000fd8                RCC_APB2PeriphClockCmd
-                0x08001018                RCC_AHB1PeriphResetCmd
-                0x08001058                RCC_AHB2PeriphResetCmd
-                0x08001098                RCC_AHB3PeriphResetCmd
-                0x080010d8                RCC_APB1PeriphResetCmd
-                0x08001118                RCC_APB2PeriphResetCmd
-                0x08001158                RCC_AHB1PeriphClockLPModeCmd
-                0x08001198                RCC_AHB2PeriphClockLPModeCmd
-                0x080011d8                RCC_AHB3PeriphClockLPModeCmd
-                0x08001218                RCC_APB1PeriphClockLPModeCmd
-                0x08001258                RCC_APB2PeriphClockLPModeCmd
-                0x08001298                RCC_LSEModeConfig
-                0x080012d4                RCC_ITConfig
-                0x08001320                RCC_GetFlagStatus
-                0x08001394                RCC_ClearFlag
-                0x080013b4                RCC_GetITStatus
-                0x080013ec                RCC_ClearITPendingBit
+ .text          0x08000258      0x4dc Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+                0x08000258                GPIO_DeInit
+                0x080003bc                GPIO_Init
+                0x080004da                GPIO_StructInit
+                0x0800050e                GPIO_PinLockConfig
+                0x08000552                GPIO_ReadInputDataBit
+                0x08000586                GPIO_ReadInputData
+                0x080005a0                GPIO_ReadOutputDataBit
+                0x080005d4                GPIO_ReadOutputData
+                0x080005ee                GPIO_SetBits
+                0x0800060c                GPIO_ResetBits
+                0x0800062c                GPIO_WriteBit
+                0x0800065e                GPIO_Write
+                0x0800067c                GPIO_ToggleBits
+                0x080006a0                GPIO_PinAFConfig
+ .text          0x08000734      0xcec Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+                0x08000734                RCC_DeInit
+                0x080007a4                RCC_HSEConfig
+                0x080007cc                RCC_WaitForHSEStartUp
+                0x0800081c                RCC_AdjustHSICalibrationValue
+                0x08000858                RCC_HSICmd
+                0x08000878                RCC_LSEConfig
+                0x080008bc                RCC_LSICmd
+                0x080008dc                RCC_PLLConfig
+                0x0800091c                RCC_PLLCmd
+                0x0800093c                RCC_PLLI2SConfig
+                0x08000968                RCC_PLLI2SCmd
+                0x08000988                RCC_PLLSAIConfig
+                0x080009bc                RCC_PLLSAICmd
+                0x080009dc                RCC_ClockSecuritySystemCmd
+                0x080009fc                RCC_MCO1Config
+                0x08000a3c                RCC_MCO2Config
+                0x08000a7c                RCC_SYSCLKConfig
+                0x08000ab4                RCC_GetSYSCLKSource
+                0x08000ad4                RCC_HCLKConfig
+                0x08000b0c                RCC_PCLK1Config
+                0x08000b44                RCC_PCLK2Config
+                0x08000b80                RCC_GetClocksFreq
+                0x08000cdc                RCC_RTCCLKConfig
+                0x08000d38                RCC_RTCCLKCmd
+                0x08000d58                RCC_BackupResetCmd
+                0x08000d78                RCC_I2SCLKConfig
+                0x08000d98                RCC_SAIBlockACLKConfig
+                0x08000dd4                RCC_SAIBlockBCLKConfig
+                0x08000e10                RCC_SAIPLLI2SClkDivConfig
+                0x08000e50                RCC_SAIPLLSAIClkDivConfig
+                0x08000e90                RCC_LTDCCLKDivConfig
+                0x08000ecc                RCC_TIMCLKPresConfig
+                0x08000eec                RCC_AHB1PeriphClockCmd
+                0x08000f2c                RCC_AHB2PeriphClockCmd
+                0x08000f6c                RCC_AHB3PeriphClockCmd
+                0x08000fac                RCC_APB1PeriphClockCmd
+                0x08000fec                RCC_APB2PeriphClockCmd
+                0x0800102c                RCC_AHB1PeriphResetCmd
+                0x0800106c                RCC_AHB2PeriphResetCmd
+                0x080010ac                RCC_AHB3PeriphResetCmd
+                0x080010ec                RCC_APB1PeriphResetCmd
+                0x0800112c                RCC_APB2PeriphResetCmd
+                0x0800116c                RCC_AHB1PeriphClockLPModeCmd
+                0x080011ac                RCC_AHB2PeriphClockLPModeCmd
+                0x080011ec                RCC_AHB3PeriphClockLPModeCmd
+                0x0800122c                RCC_APB1PeriphClockLPModeCmd
+                0x0800126c                RCC_APB2PeriphClockLPModeCmd
+                0x080012ac                RCC_LSEModeConfig
+                0x080012e8                RCC_ITConfig
+                0x08001334                RCC_GetFlagStatus
+                0x080013a8                RCC_ClearFlag
+                0x080013c8                RCC_GetITStatus
+                0x08001400                RCC_ClearITPendingBit
  *(.text*)
  .text.__libc_init_array
-                0x0800140c       0x48 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
-                0x0800140c                __libc_init_array
+                0x08001420       0x48 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+                0x08001420                __libc_init_array
  .text.Reset_Handler
-                0x08001454       0x50 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
-                0x08001454                Reset_Handler
+                0x08001468       0x50 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
+                0x08001468                Reset_Handler
  .text.Default_Handler
-                0x080014a4        0x2 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
-                0x080014a4                RTC_Alarm_IRQHandler
-                0x080014a4                HASH_RNG_IRQHandler
-                0x080014a4                EXTI2_IRQHandler
-                0x080014a4                TIM8_CC_IRQHandler
-                0x080014a4                DebugMon_Handler
-                0x080014a4                TIM1_CC_IRQHandler
-                0x080014a4                DMA2_Stream5_IRQHandler
-                0x080014a4                HardFault_Handler
-                0x080014a4                DMA1_Stream5_IRQHandler
-                0x080014a4                SysTick_Handler
-                0x080014a4                PVD_IRQHandler
-                0x080014a4                SDIO_IRQHandler
-                0x080014a4                TAMP_STAMP_IRQHandler
-                0x080014a4                PendSV_Handler
-                0x080014a4                NMI_Handler
-                0x080014a4                CAN2_RX1_IRQHandler
-                0x080014a4                EXTI3_IRQHandler
-                0x080014a4                TIM8_TRG_COM_TIM14_IRQHandler
-                0x080014a4                TIM1_UP_TIM10_IRQHandler
-                0x080014a4                TIM8_UP_TIM13_IRQHandler
-                0x080014a4                I2C3_ER_IRQHandler
-                0x080014a4                EXTI0_IRQHandler
-                0x080014a4                I2C2_EV_IRQHandler
-                0x080014a4                DMA1_Stream2_IRQHandler
-                0x080014a4                CAN1_RX0_IRQHandler
-                0x080014a4                FPU_IRQHandler
-                0x080014a4                OTG_HS_WKUP_IRQHandler
-                0x080014a4                UsageFault_Handler
-                0x080014a4                CAN2_SCE_IRQHandler
-                0x080014a4                DMA2_Stream2_IRQHandler
-                0x080014a4                SPI1_IRQHandler
-                0x080014a4                TIM6_DAC_IRQHandler
-                0x080014a4                TIM1_BRK_TIM9_IRQHandler
-                0x080014a4                DCMI_IRQHandler
-                0x080014a4                CAN2_RX0_IRQHandler
-                0x080014a4                DMA2_Stream3_IRQHandler
-                0x080014a4                USART6_IRQHandler
-                0x080014a4                USART3_IRQHandler
-                0x080014a4                CRYP_IRQHandler
-                0x080014a4                CAN1_RX1_IRQHandler
-                0x080014a4                UART5_IRQHandler
-                0x080014a4                DMA2_Stream0_IRQHandler
-                0x080014a4                TIM4_IRQHandler
-                0x080014a4                I2C1_EV_IRQHandler
-                0x080014a4                DMA1_Stream6_IRQHandler
-                0x080014a4                DMA1_Stream1_IRQHandler
-                0x080014a4                UART4_IRQHandler
-                0x080014a4                TIM3_IRQHandler
-                0x080014a4                RCC_IRQHandler
-                0x080014a4                TIM8_BRK_TIM12_IRQHandler
-                0x080014a4                Default_Handler
-                0x080014a4                EXTI15_10_IRQHandler
-                0x080014a4                ADC_IRQHandler
-                0x080014a4                DMA1_Stream7_IRQHandler
-                0x080014a4                TIM7_IRQHandler
-                0x080014a4                CAN2_TX_IRQHandler
-                0x080014a4                TIM5_IRQHandler
-                0x080014a4                DMA2_Stream7_IRQHandler
-                0x080014a4                I2C3_EV_IRQHandler
-                0x080014a4                EXTI9_5_IRQHandler
-                0x080014a4                RTC_WKUP_IRQHandler
-                0x080014a4                ETH_WKUP_IRQHandler
-                0x080014a4                SPI2_IRQHandler
-                0x080014a4                OTG_HS_EP1_IN_IRQHandler
-                0x080014a4                MemManage_Handler
-                0x080014a4                DMA1_Stream0_IRQHandler
-                0x080014a4                CAN1_TX_IRQHandler
-                0x080014a4                SVC_Handler
-                0x080014a4                EXTI4_IRQHandler
-                0x080014a4                FSMC_IRQHandler
-                0x080014a4                ETH_IRQHandler
-                0x080014a4                OTG_HS_EP1_OUT_IRQHandler
-                0x080014a4                WWDG_IRQHandler
-                0x080014a4                TIM2_IRQHandler
-                0x080014a4                OTG_FS_WKUP_IRQHandler
-                0x080014a4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080014a4                OTG_HS_IRQHandler
-                0x080014a4                EXTI1_IRQHandler
-                0x080014a4                USART2_IRQHandler
-                0x080014a4                I2C2_ER_IRQHandler
-                0x080014a4                DMA2_Stream1_IRQHandler
-                0x080014a4                CAN1_SCE_IRQHandler
-                0x080014a4                DMA2_Stream4_IRQHandler
-                0x080014a4                BusFault_Handler
-                0x080014a4                USART1_IRQHandler
-                0x080014a4                OTG_FS_IRQHandler
-                0x080014a4                SPI3_IRQHandler
-                0x080014a4                DMA1_Stream4_IRQHandler
-                0x080014a4                I2C1_ER_IRQHandler
-                0x080014a4                DMA2_Stream6_IRQHandler
-                0x080014a4                DMA1_Stream3_IRQHandler
+                0x080014b8        0x2 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
+                0x080014b8                RTC_Alarm_IRQHandler
+                0x080014b8                HASH_RNG_IRQHandler
+                0x080014b8                EXTI2_IRQHandler
+                0x080014b8                TIM8_CC_IRQHandler
+                0x080014b8                DebugMon_Handler
+                0x080014b8                TIM1_CC_IRQHandler
+                0x080014b8                DMA2_Stream5_IRQHandler
+                0x080014b8                HardFault_Handler
+                0x080014b8                DMA1_Stream5_IRQHandler
+                0x080014b8                SysTick_Handler
+                0x080014b8                PVD_IRQHandler
+                0x080014b8                SDIO_IRQHandler
+                0x080014b8                TAMP_STAMP_IRQHandler
+                0x080014b8                PendSV_Handler
+                0x080014b8                NMI_Handler
+                0x080014b8                CAN2_RX1_IRQHandler
+                0x080014b8                EXTI3_IRQHandler
+                0x080014b8                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080014b8                TIM1_UP_TIM10_IRQHandler
+                0x080014b8                TIM8_UP_TIM13_IRQHandler
+                0x080014b8                I2C3_ER_IRQHandler
+                0x080014b8                EXTI0_IRQHandler
+                0x080014b8                I2C2_EV_IRQHandler
+                0x080014b8                DMA1_Stream2_IRQHandler
+                0x080014b8                CAN1_RX0_IRQHandler
+                0x080014b8                FPU_IRQHandler
+                0x080014b8                OTG_HS_WKUP_IRQHandler
+                0x080014b8                UsageFault_Handler
+                0x080014b8                CAN2_SCE_IRQHandler
+                0x080014b8                DMA2_Stream2_IRQHandler
+                0x080014b8                SPI1_IRQHandler
+                0x080014b8                TIM6_DAC_IRQHandler
+                0x080014b8                TIM1_BRK_TIM9_IRQHandler
+                0x080014b8                DCMI_IRQHandler
+                0x080014b8                CAN2_RX0_IRQHandler
+                0x080014b8                DMA2_Stream3_IRQHandler
+                0x080014b8                USART6_IRQHandler
+                0x080014b8                USART3_IRQHandler
+                0x080014b8                CRYP_IRQHandler
+                0x080014b8                CAN1_RX1_IRQHandler
+                0x080014b8                UART5_IRQHandler
+                0x080014b8                DMA2_Stream0_IRQHandler
+                0x080014b8                TIM4_IRQHandler
+                0x080014b8                I2C1_EV_IRQHandler
+                0x080014b8                DMA1_Stream6_IRQHandler
+                0x080014b8                DMA1_Stream1_IRQHandler
+                0x080014b8                UART4_IRQHandler
+                0x080014b8                TIM3_IRQHandler
+                0x080014b8                RCC_IRQHandler
+                0x080014b8                TIM8_BRK_TIM12_IRQHandler
+                0x080014b8                Default_Handler
+                0x080014b8                EXTI15_10_IRQHandler
+                0x080014b8                ADC_IRQHandler
+                0x080014b8                DMA1_Stream7_IRQHandler
+                0x080014b8                TIM7_IRQHandler
+                0x080014b8                CAN2_TX_IRQHandler
+                0x080014b8                TIM5_IRQHandler
+                0x080014b8                DMA2_Stream7_IRQHandler
+                0x080014b8                I2C3_EV_IRQHandler
+                0x080014b8                EXTI9_5_IRQHandler
+                0x080014b8                RTC_WKUP_IRQHandler
+                0x080014b8                ETH_WKUP_IRQHandler
+                0x080014b8                SPI2_IRQHandler
+                0x080014b8                OTG_HS_EP1_IN_IRQHandler
+                0x080014b8                MemManage_Handler
+                0x080014b8                DMA1_Stream0_IRQHandler
+                0x080014b8                CAN1_TX_IRQHandler
+                0x080014b8                SVC_Handler
+                0x080014b8                EXTI4_IRQHandler
+                0x080014b8                FSMC_IRQHandler
+                0x080014b8                ETH_IRQHandler
+                0x080014b8                OTG_HS_EP1_OUT_IRQHandler
+                0x080014b8                WWDG_IRQHandler
+                0x080014b8                TIM2_IRQHandler
+                0x080014b8                OTG_FS_WKUP_IRQHandler
+                0x080014b8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080014b8                OTG_HS_IRQHandler
+                0x080014b8                EXTI1_IRQHandler
+                0x080014b8                USART2_IRQHandler
+                0x080014b8                I2C2_ER_IRQHandler
+                0x080014b8                DMA2_Stream1_IRQHandler
+                0x080014b8                CAN1_SCE_IRQHandler
+                0x080014b8                DMA2_Stream4_IRQHandler
+                0x080014b8                BusFault_Handler
+                0x080014b8                USART1_IRQHandler
+                0x080014b8                OTG_FS_IRQHandler
+                0x080014b8                SPI3_IRQHandler
+                0x080014b8                DMA1_Stream4_IRQHandler
+                0x080014b8                I2C1_ER_IRQHandler
+                0x080014b8                DMA2_Stream6_IRQHandler
+                0x080014b8                DMA1_Stream3_IRQHandler
  *(.glue_7)
- .glue_7        0x080014a6        0x0 linker stubs
+ .glue_7        0x080014ba        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080014a6        0x0 linker stubs
+ .glue_7t       0x080014ba        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x080014a6        0x2 
- .eh_frame      0x080014a8        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *fill*         0x080014ba        0x2 
+ .eh_frame      0x080014bc        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x080014a8        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x080014a8                _init
- .init          0x080014ac        0x8 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x080014bc        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080014bc                _init
+ .init          0x080014c0        0x8 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x080014b4        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x080014b4                _fini
- .fini          0x080014b8        0x8 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x080014c0                        . = ALIGN (0x4)
-                0x080014c0                        _etext = .
+ .fini          0x080014c8        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080014c8                _fini
+ .fini          0x080014cc        0x8 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x080014d4                        . = ALIGN (0x4)
+                0x080014d4                        _etext = .
 
-.vfp11_veneer   0x080014c0        0x0
- .vfp11_veneer  0x080014c0        0x0 linker stubs
+.vfp11_veneer   0x080014d4        0x0
+ .vfp11_veneer  0x080014d4        0x0 linker stubs
 
-.v4_bx          0x080014c0        0x0
- .v4_bx         0x080014c0        0x0 linker stubs
+.v4_bx          0x080014d4        0x0
+ .v4_bx         0x080014d4        0x0 linker stubs
 
-.iplt           0x080014c0        0x0
- .iplt          0x080014c0        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x080014d4        0x0
+ .iplt          0x080014d4        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x080014c0       0x10
-                0x080014c0                        . = ALIGN (0x4)
+.rodata         0x080014d4       0x10
+                0x080014d4                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x080014c0       0x10 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+ .rodata        0x080014d4       0x10 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
  *(.rodata*)
-                0x080014d0                        . = ALIGN (0x4)
+                0x080014e4                        . = ALIGN (0x4)
 
-.ARM.extab      0x080014d0        0x0
-                0x080014d0                        . = ALIGN (0x4)
+.ARM.extab      0x080014e4        0x0
+                0x080014e4                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080014d0                        . = ALIGN (0x4)
+                0x080014e4                        . = ALIGN (0x4)
 
-.ARM            0x080014d0        0x0
-                0x080014d0                        . = ALIGN (0x4)
-                0x080014d0                        __exidx_start = .
+.ARM            0x080014e4        0x0
+                0x080014e4                        . = ALIGN (0x4)
+                0x080014e4                        __exidx_start = .
  *(.ARM.exidx*)
-                0x080014d0                        __exidx_end = .
-                0x080014d0                        . = ALIGN (0x4)
+                0x080014e4                        __exidx_end = .
+                0x080014e4                        . = ALIGN (0x4)
 
-.preinit_array  0x080014d0        0x0
-                0x080014d0                        . = ALIGN (0x4)
-                0x080014d0                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080014e4        0x0
+                0x080014e4                        . = ALIGN (0x4)
+                0x080014e4                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080014d0                        PROVIDE (__preinit_array_end = .)
-                0x080014d0                        . = ALIGN (0x4)
+                0x080014e4                        PROVIDE (__preinit_array_end = .)
+                0x080014e4                        . = ALIGN (0x4)
 
-.init_array     0x080014d0        0x4
-                0x080014d0                        . = ALIGN (0x4)
-                0x080014d0                        PROVIDE (__init_array_start = .)
+.init_array     0x080014e4        0x4
+                0x080014e4                        . = ALIGN (0x4)
+                0x080014e4                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080014d0        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080014d4                        PROVIDE (__init_array_end = .)
-                0x080014d4                        . = ALIGN (0x4)
+ .init_array    0x080014e4        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x080014e8                        PROVIDE (__init_array_end = .)
+                0x080014e8                        . = ALIGN (0x4)
 
-.fini_array     0x080014d4        0x4
-                0x080014d4                        . = ALIGN (0x4)
+.fini_array     0x080014e8        0x4
+                0x080014e8                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080014d4        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x080014e8        0x4 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x080014d8                        . = ALIGN (0x4)
-                0x080014d8                        _sidata = LOADADDR (.data)
+                0x080014ec                        . = ALIGN (0x4)
+                0x080014ec                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x080014d8        0x0
- .rel.iplt      0x080014d8        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x080014ec        0x0
+ .rel.iplt      0x080014ec        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000        0x0 load address 0x080014d8
+.data           0x20000000        0x0 load address 0x080014ec
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -4784,12 +4783,12 @@ LOAD D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-no
  *(.RamFunc*)
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _edata = .
-                0x080014d8                        _siccmram = LOADADDR (.ccmram)
+                0x080014ec                        _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x20000000        0x0 load address 0x080014d8
+.igot.plt       0x20000000        0x0 load address 0x080014ec
  .igot.plt      0x20000000        0x0 D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x080014d8
+.ccmram         0x10000000        0x0 load address 0x080014ec
                 0x10000000                        . = ALIGN (0x4)
                 0x10000000                        _sccmram = .
  *(.ccmram)
@@ -4798,21 +4797,22 @@ LOAD D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-no
                 0x10000000                        _eccmram = .
                 0x10000000                        . = ALIGN (0x4)
 
-.bss            0x20000000       0x1c
+.bss            0x20000000       0x20
                 0x20000000                        _sbss = .
                 0x20000000                        __bss_start__ = _sbss
  *(.bss)
  .bss           0x20000000       0x1c D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x2000001c        0x4 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
+                0x2000001c                counttest
  *(.bss*)
  *(COMMON)
-                0x2000001c                        . = ALIGN (0x4)
-                0x2000001c                        _ebss = .
-                0x2000001c                        __bss_end__ = _ebss
+                0x20000020                        . = ALIGN (0x4)
+                0x20000020                        _ebss = .
+                0x20000020                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x2000001c      0x604
+                0x20000020      0x600
                 0x20000020                        . = ALIGN (0x8)
- *fill*         0x2000001c        0x4 
                 [!provide]                        PROVIDE (end = .)
                 0x20000020                        PROVIDE (_end = .)
                 0x20000220                        . = (. + _Min_Heap_Size)
@@ -4857,28 +4857,28 @@ LOAD D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-no
  .debug_frame   0x00000084      0x23c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
  .debug_frame   0x000002c0      0x83c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
 
-.debug_line     0x00000000     0x1c43
+.debug_line     0x00000000     0x1c4b
  .debug_line    0x00000000       0x7b Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
- .debug_line    0x0000007b      0x65d Project/CMakeFiles/TEMPLATE.dir/main.c.obj
- .debug_line    0x000006d8      0x8d3 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
- .debug_line    0x00000fab      0xc98 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+ .debug_line    0x0000007b      0x665 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
+ .debug_line    0x000006e0      0x8d3 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+ .debug_line    0x00000fb3      0xc98 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
 
 .debug_line_str
                 0x00000000       0x72
  .debug_line_str
                 0x00000000       0x72 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
 
-.debug_info     0x00000000     0x1742
+.debug_info     0x00000000     0x1754
  .debug_info    0x00000000       0x30 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
- .debug_info    0x00000030      0x316 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
- .debug_info    0x00000346      0x5f9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
- .debug_info    0x0000093f      0xe03 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+ .debug_info    0x00000030      0x328 Project/CMakeFiles/TEMPLATE.dir/main.c.obj
+ .debug_info    0x00000358      0x5f9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+ .debug_info    0x00000951      0xe03 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
 
-.debug_abbrev   0x00000000      0x55d
+.debug_abbrev   0x00000000      0x570
  .debug_abbrev  0x00000000       0x24 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
- .debug_abbrev  0x00000024      0x16a Project/CMakeFiles/TEMPLATE.dir/main.c.obj
- .debug_abbrev  0x0000018e      0x1ef Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
- .debug_abbrev  0x0000037d      0x1e0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+ .debug_abbrev  0x00000024      0x17d Project/CMakeFiles/TEMPLATE.dir/main.c.obj
+ .debug_abbrev  0x000001a1      0x1ef Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+ .debug_abbrev  0x00000390      0x1e0 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
 
 .debug_aranges  0x00000000       0x88
  .debug_aranges
@@ -4890,12 +4890,12 @@ LOAD D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-no
  .debug_aranges
                 0x00000068       0x20 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
 
-.debug_str      0x00000000    0x62fa9
- .debug_str     0x00000000    0x62fa9 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
+.debug_str      0x00000000    0x62fc7
+ .debug_str     0x00000000    0x62fc7 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/Startup/startup_stm32f407vgtx.s.obj
                                  0x8e (size before relaxing)
- .debug_str     0x00062fa9    0x6219c Project/CMakeFiles/TEMPLATE.dir/main.c.obj
- .debug_str     0x00062fa9    0x62308 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
- .debug_str     0x00062fa9    0x62df5 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
+ .debug_str     0x00062fc7    0x621ba Project/CMakeFiles/TEMPLATE.dir/main.c.obj
+ .debug_str     0x00062fc7    0x6231c Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c.obj
+ .debug_str     0x00062fc7    0x62e09 Project/CMakeFiles/TEMPLATE.dir/BasicCompents/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c.obj
 
 .debug_rnglists
                 0x00000000       0x19

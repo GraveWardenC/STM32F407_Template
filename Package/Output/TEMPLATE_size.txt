@@ -1,28 +1,28 @@
 D:/TemplateVscode/template/Package/Output/TEMPLATE.elf  :
 section               size        addr
 .isr_vector            392   134217728
-.text                 4920   134218120
-.rodata                 16   134223040
-.ARM.extab               0   134223056
-.ARM                     0   134223056
-.preinit_array           0   134223056
-.init_array              4   134223056
-.fini_array              4   134223060
+.text                 4940   134218120
+.rodata                 16   134223060
+.ARM.extab               0   134223076
+.ARM                     0   134223076
+.preinit_array           0   134223076
+.init_array              4   134223076
+.fini_array              4   134223080
 .data                    0   536870912
 .ccmram                  0   268435456
-.bss                    28   536870912
-._user_heap_stack     1540   536870940
+.bss                    32   536870912
+._user_heap_stack     1536   536870944
 .ARM.attributes         48           0
 .debug_frame          2812           0
-.debug_line           7235           0
+.debug_line           7243           0
 .debug_line_str        114           0
-.debug_info           5954           0
-.debug_abbrev         1373           0
+.debug_info           5972           0
+.debug_abbrev         1392           0
 .debug_aranges         136           0
-.debug_str          405417           0
+.debug_str          405447           0
 .debug_rnglists         25           0
 .debug_macro         64358           0
 .comment                67           0
-Total               494443
+Total               494538
 
 

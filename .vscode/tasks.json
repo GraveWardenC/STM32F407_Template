@@ -32,7 +32,21 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "dependsOn": ["cmake-configure"]
+        },
+        {
+            "label": "flash-jlink",
+            "type": "shell",
+            "command": "JLink",
+            "args": [
+                "-Device", "STM32F407VG",
+                "-If", "SWD",
+                "-Speed", "4000",
+                "-CommandFile", "\"${workspaceFolder}/Package/Script/flash.jlink\""
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build"
+            },
+            "dependsOn":["build"]
         },
         {
             "label": "flash-jlink-nobuild",
@@ -41,7 +55,7 @@
             "args": [
                 "-Device", "STM32F407VG",
                 "-If", "SWD",
-                "-Speed", "4000",
+                "-Speed", "8000",
                 "-CommandFile", "\"${workspaceFolder}/Package/Script/flash.jlink\""
             ],
             "options": {

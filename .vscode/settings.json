@@ -2,5 +2,28 @@
     "files.associations": {
         ".clang-format": "c",
         "stm32f4xx.h": "c"
-    }
+    },
+        "VsCodeTaskButtons.tasks": [
+         {
+            "label": "$(symbol-property) Build",
+            "task": "build",
+            "tooltip": "🛠️ Start the \"build\" task"
+        },
+        {
+            "label": "$(notebook-move-up) Flash",
+            "task": "flash-jlink",
+            "tooltip": "🚀 Start the \"flash-jlink\" task"
+        },
+        {  
+            "label": "$(server-process) Start GDB-Server",
+            "task": "start-gdbserver",
+            "tooltip": "🚀 Start the \"start-gdbserver\" task"
+        },
+        {
+            "label": "$(server-process) Kill GDB-Server",
+            "task": "kill-gdbserver",
+            "tooltip": "🚀 Kill the \"kill-gdbserver\" task"
+        }
+    ],
+    "cortex-debug.variableUseNaturalFormat": true
 }
