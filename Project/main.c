@@ -1,4 +1,5 @@
 #include "stm32f4xx.h"
+#include "sysclock.h"
 #include "stm32f4xx_gpio.h"
 #include "stm32f4xx_rcc.h"
 
@@ -12,6 +13,7 @@ void delay(volatile uint32_t count)
 }
 int main()
 {
+    (void)ConfigSysClkTo168MHZ(&g_systemClkInfo);
     RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
     GPIO_InitTypeDef GPIO_InitStructure;
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
