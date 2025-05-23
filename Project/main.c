@@ -26,8 +26,8 @@ int main()
     {
         counttest+=5;
         GPIO_ResetBits(GPIOC, GPIO_Pin_1);
-        delay(1000);
+        delay(100000);
         GPIO_SetBits(GPIOC, GPIO_Pin_1);
-        delay(1000);
+        delay(100000);
     }
 }

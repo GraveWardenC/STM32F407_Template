@@ -167,6 +167,30 @@
     ![图片描述](Doc\img\vs16.png)
 
 ### CLion
+1. 克隆项目到本地
+2.  使用clion打开项目，clion会自动识别根目录下的cmake文件
+
+    此时需要配置编译链以供代码感知和编译使用，例如配置一个MINGW_ST的编译链
+    ![图片描述](Doc\img\clion1.png)
+    ![图片描述](Doc\img\clion2.png)
+    选择配置的编译链，构建器选择默认捆绑的Ninja即可，确认后触发clion的cmake检测，会生成一个名为cmake-build-debug-mingw_st的目录用来存放cmake中间缓存，即默认的build目录，这个目录默认被添加到了.gitignore文件中，因此不会被git管理,也可手动设置目录为build
+3. 编译
+
+    此时直接点击编译按键即可进行编译
+    ![图片描述](Doc\img\clion3.png)
+
+4. 调试支持
+
+    我们使用vscode中gdb debug原理进行调试，但此时无需建立脚本文件，因为clion2025.1.1之后的版本已经支持了SeggerJlink和ST_LINK的调试，只需要开启相关功能即可。
+
+    首先需要开启远程调试服务器设置
+    ![图片描述](Doc\img\clion4.png)
+    ![图片描述](Doc\img\clion5.png)
+    ![图片描述](Doc\img\clion6.png)
+    ![图片描述](Doc\img\clion7.png)
+    ![图片描述](Doc\img\clion8.png)
+    ![图片描述](Doc\img\clion9.png)
+    ![图片描述](Doc\img\clion10.png)
 
 
 ## 📦 第三方组件
