@@ -6,3 +6,5 @@ build
 !.idea/misc.xml
 !.idea/STM32_Template.iml
 !.idea/vcs.xml
+Package/Lib
+Package/Output
