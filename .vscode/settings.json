@@ -1,7 +1,8 @@
 {
     "files.associations": {
         ".clang-format": "c",
-        "stm32f4xx.h": "c"
+        "stm32f4xx.h": "c",
+        "semphr.h": "c"
     },
         "VsCodeTaskButtons.tasks": [
          {
