@@ -4,6 +4,10 @@ set(EXECUTABLE_NAME ${CMAKE_PROJECT_NAME})
 set(BASICCOMPENTS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/BasicCompents)
 
 #Basic compents STM32_SPL define Do not use module
+set(CMSIS_INCLUDES ${CMAKE_CURRENT_SOURCE_DIR}/Include/CMSIS/Include)
+set(STM32_DEVICE_INCLUDES ${CMAKE_CURRENT_SOURCE_DIR}/Include/STM32_SPL/Device)    #  STM32_SPL Device
+set(STM32_PORT_INCLUDES ${CMAKE_CURRENT_SOURCE_DIR}/Include/STM32_SPL/Port)    #  STM32_SPL port
+
 file(GLOB_RECURSE STM32_SPL_SOURCES 
         ${BASICCOMPENTS_DIR}/STM32_SPL/STM32F4xx_StdPeriph_Driver/src/*.c 
         ${BASICCOMPENTS_DIR}/STM32_SPL/STM32F4xx_StdPeriph_Driver/system_stm32f4xx.c
@@ -19,14 +23,12 @@ set(RTOS_INCLUDES
         )
 
 set(PROJECT_INCLUDES
-        ${CMAKE_CURRENT_SOURCE_DIR}/Include/CMSIS/Include       #  CMSIS
-        ${CMAKE_CURRENT_SOURCE_DIR}/Include/STM32_SPL/Port      #  STM32_SPL port
-        ${CMAKE_CURRENT_SOURCE_DIR}/Include/STM32_SPL/Device    #  STM32_SPL Device
+        ${CMSIS_INCLUDES}
+        ${STM32_PORT_INCLUDES}
+        ${STM32_DEVICE_INCLUDES}
         ${STM32_SPL_INCLUDES}                                   #  STM32_SPL
         ${RTOS_INCLUDES}
 )
-
-
 
 
 set(PROJECT_SOURCES 
@@ -44,6 +46,7 @@ set (PROJECT_DEFINES
         STM32F40_41xxx
         USE_STDPERIPH_DRIVER
         HSE_VALUE=8000000
+        CACHE INTERNAL "Project compile definitions"
 )
 
 #################################BUILD PROJECT##########################################
@@ -53,7 +56,9 @@ enable_language(ASM)
 
 add_subdirectory(BasicCompents)
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
-
+target_link_libraries(${PROJECT_NAME} PRIVATE
+        sysclock
+)
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_SIZE} $<TARGET_FILE:${PROJECT_NAME}>

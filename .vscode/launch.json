@@ -11,7 +11,7 @@
             "device": "STM32F407VG", // 根据实际芯片型号修改
             "interface": "swd",
             "svdFile": "${workspaceFolder}/Package/STM32F407.svd", // SVD 文件路径（可选，用于外设查看）
-            "rtos": "C:/Program Files/SEGGER/JLink_V828/GDBServer/RTOSPlugin_FreeRTOS.dll",
+            // "rtos": "C:/Program Files/SEGGER/JLink_V828/GDBServer/RTOSPlugin_FreeRTOS.dll",
             "runToEntryPoint": "main",
             "armToolchainPath": "D:/ST/CubeCli/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin", // 工具链路径
             "liveWatch": {

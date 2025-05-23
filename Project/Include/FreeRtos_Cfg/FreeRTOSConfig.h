@@ -55,7 +55,7 @@
 /* =1 enable Idle low power consumption; =0 disable*/
 #define configUSE_TICKLESS_IDLE                    0
 
-#define configMAX_PRIORITIES                       5U
+#define configMAX_PRIORITIES                       32U
 
 #define configMINIMAL_STACK_SIZE                   128U
 
@@ -162,4 +162,5 @@
 #define vPortSVCHandler                         SVC_Handler
 #define xPortPendSVHandler                      PendSV_Handler
 #define xPortSysTickHandler                     SysTick_Handler
+
 #endif

@@ -6,31 +6,17 @@
 #include "task.h"
 #include "queue.h"
 #include "semphr.h"
-
+#include "sysclock.h"
 
 void initLED(void);
-void toggleLED(void);
-void vTask1(void *pvParameters);
-void vTask2(void *pvParameters);
-void vTaskLed(void *pvParameters);
-
-QueueHandle_t xQueue;
-SemaphoreHandle_t xSemaphore;
+void vTaskLED(void *pvParameters);
 int main()
 {
     __set_PRIMASK(1);
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_4);
+    (void)ConfigSysClkTo168MHZ(&g_systemClkInfo);
     initLED();
-    xQueue = xQueueCreate(5, sizeof(uint32_t));
-    xSemaphore = xSemaphoreCreateMutex();
-
-    if (xQueue != NULL && xSemaphore != NULL) 
-    {
-        // xTaskCreate(vTask1, "Task1", 256, NULL, 2, NULL);
-        // xTaskCreate(vTask2, "Task2", 256, NULL, 2, NULL);
-        xTaskCreate(vTaskLed, "TaskLed", 256, NULL, 2, NULL);
-    }
-
+    xTaskCreate(vTaskLED, "LED", 256, NULL, 18, NULL);
     vTaskStartScheduler();
     
     for(;;) 
@@ -51,47 +37,12 @@ void initLED(void)
     GPIO_Init(GPIOC, &GPIO_InitStructure);
     GPIO_SetBits(GPIOC, GPIO_Pin_1);
 }
-void toggleLED(void)
-{
-    GPIO_ToggleBits(GPIOC, GPIO_Pin_1);
-}
-void vTask1(void *pvParameters)
-{
-    uint32_t count = 0;
 
-    for(;;) 
-    {
-        if (xSemaphoreTake(xSemaphore, portMAX_DELAY) == pdTRUE)
-         {
-            xQueueSend(xQueue, &count, portMAX_DELAY);
-            xSemaphoreGive(xSemaphore);
-            count++;
-        }
-        toggleLED();
-        vTaskDelay(pdMS_TO_TICKS(500));
-    }
-    
-}
-
-void vTask2(void *pvParameters)
+void vTaskLED(void *pvParameters)
 {
-    uint32_t recvVal;
-    for(;;)
+    while (1)
     {
-        if (xQueueReceive(xQueue, &recvVal, portMAX_DELAY) == pdPASS) 
-        {
-            toggleLED();
-        }
-        vTaskDelay(pdMS_TO_TICKS(1000));
-    }
-    
-}
-
-void vTaskLed(void *pvParameters)
-{
-    for(;;)
-    {
-        toggleLED();
-        vTaskDelay(pdMS_TO_TICKS(500));
+        GPIO_ToggleBits(GPIOC, GPIO_Pin_1);
+        vTaskDelay(pdMS_TO_TICKS(500));  // 延时500ms
     }
 }

@@ -2,7 +2,9 @@
     "files.associations": {
         ".clang-format": "c",
         "stm32f4xx.h": "c",
-        "semphr.h": "c"
+        "semphr.h": "c",
+        "stm32f4xx_flash.h": "c",
+        "stm32f4xx_rcc.h": "c"
     },
         "VsCodeTaskButtons.tasks": [
          {
@@ -12,7 +14,7 @@
         },
         {
             "label": "$(notebook-move-up) Flash",
-            "task": "flash-jlink",
+            "task": "flash-jlink-nobuild",
             "tooltip": "🚀 Start the \"flash-jlink\" task"
         },
         {  
