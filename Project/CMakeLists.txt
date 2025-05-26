@@ -46,6 +46,7 @@ set (PROJECT_DEFINES
         STM32F40_41xxx
         USE_STDPERIPH_DRIVER
         HSE_VALUE=8000000
+        __FPU_PRESENT=1
         CACHE INTERNAL "Project compile definitions"
 )
 
