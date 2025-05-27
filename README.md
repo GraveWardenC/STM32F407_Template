@@ -16,7 +16,7 @@
 
 1. 下载编译链并配置环境变量
 
-    存放地址：南京文件服务器：\\192.168.2.88\个人文件\chenkai\Windows\ArmToolchain
+    存放地址：南京文件服务器：\Windows\ArmToolchain
 
     下载改编译链安装至一个固定的文件夹，并将bin目录添加至环境变量path中
     ![图片描述](Doc\img\2.png)
@@ -42,9 +42,9 @@
     
     存放地址：
 
-    Ninja:南京文件服务器：\\192.168.2.88\个人文件\chenkai\Windows\Ninja
+    Ninja:南京文件服务器：\Windows\Ninja
 
-    Cmake:南京文件服务器：\\192.168.2.88\个人文件\chenkai\Windows\Cmake
+    Cmake:南京文件服务器：\Windows\Cmake
 
     将各自的bin目录添加至环境变量path即可，检测如下
 
