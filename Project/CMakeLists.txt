@@ -66,7 +66,6 @@ add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
 target_link_libraries(${PROJECT_NAME} PRIVATE
         SeggerRTT
         # FatFs
-        usart
 )
 
 add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
