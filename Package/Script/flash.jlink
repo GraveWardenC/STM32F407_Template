@@ -1,0 +1,4 @@
+halt
+loadfile D:\Develop\PIE_MOS\Package\Output\TEMPLATE.elf
+r
+q

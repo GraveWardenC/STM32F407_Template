@@ -1,0 +1,39 @@
+{
+    "files.associations": {
+        ".clang-format": "c",
+        "stm32f4xx.h": "c",
+        "systick.h": "c",
+        "stm32f4xx_gpio.h": "c",
+        "stm32f4xx_rcc.h": "c",
+        "segger_rtt.h": "c",
+        "stm32f4xx_usart.h": "c",
+        "stm32f4xx_dma.h": "c",
+        "stm32f4xx_rng.h": "c",
+        "stm32f4xx_hal_rcc.h": "c",
+        "stm32f4xx_hal_conf.h": "c",
+        "stm32f4xx_hal_def.h": "c"
+    },
+        "VsCodeTaskButtons.tasks": [
+         {
+            "label": "$(symbol-property) Build",
+            "task": "build",
+            "tooltip": "🛠️ Start the \"build\" task"
+        },
+        {
+            "label": "$(notebook-move-up) Flash",
+            "task": "flash-jlink",
+            "tooltip": "🚀 Start the \"flash-jlink\" task"
+        },
+        {  
+            "label": "$(server-process) Start GDB-Server",
+            "task": "start-gdbserver",
+            "tooltip": "🚀 Start the \"start-gdbserver\" task"
+        },
+        {
+            "label": "$(server-process) Kill GDB-Server",
+            "task": "kill-gdbserver",
+            "tooltip": "🚀 Kill the \"kill-gdbserver\" task"
+        }
+    ],
+    "cortex-debug.variableUseNaturalFormat": true
+}

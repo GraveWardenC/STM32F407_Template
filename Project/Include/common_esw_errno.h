@@ -1,0 +1,111 @@
+#ifndef COMMON_ESW_ERROR_H
+#define COMMON_ESW_ERROR_H
+
+/* error code */
+#define ERRNO_SUCCESS                        0
+
+#define ERRNO_BASE                           100
+#define ERRNO_PARAM                          (ERRNO_BASE + 1)
+#define ERRNO_NULL_POINTER                   (ERRNO_BASE + 2)
+#define ERRNO_INIT                           (ERRNO_BASE + 3)
+#define ERRNO_TIMEOUT                        (ERRNO_BASE + 4)
+#define ERRNO_NOMEM                          (ERRNO_BASE + 5)
+#define ERRNO_INCOMPLETE                     (ERRNO_BASE + 6)
+#define ERRNO_NEXIST                         (ERRNO_BASE + 7)
+#define ERRNO_MALLOC                         (ERRNO_BASE + 10)
+#define ERRNO_NOT_SUPPORT                    (ERRNO_BASE + 11)
+#define ERRNO_BUSY                           (ERRNO_BASE + 12)
+#define ERRNO_OFFLINE                        (ERRNO_BASE + 13)
+#define ERRNO_ABORT                          (ERRNO_BASE + 14)
+#define ERRNO_DEV_OPEN                       (ERRNO_BASE + 15)
+#define ERRNO_DEV_CLOSE                      (ERRNO_BASE + 16)
+#define ERRNO_DEV_WR                         (ERRNO_BASE + 17)
+#define ERRNO_DEV_RD                         (ERRNO_BASE + 18)
+#define ERRNO_DEV_RST                        (ERRNO_BASE + 19)
+#define ERRNO_DEV_BUSY                       (ERRNO_BASE + 20)
+#define ERRNO_OVERFLOW                       (ERRNO_BASE + 21)
+#define ERRNO_UNDERFLOW                      (ERRNO_BASE + 22)
+#define ERRNO_CRC                            (ERRNO_BASE + 23)
+
+#define ERRNO_FILE_BASE                      300
+#define ERRNO_FILE_NAME                      (ERRNO_FILE_BASE + 1)
+#define ERRNO_FILE_NONEXIST                  (ERRNO_FILE_BASE + 2)
+#define ERRNO_FILE_LEN                       (ERRNO_FILE_BASE + 3)
+#define ERRNO_FILE_OPEN                      (ERRNO_FILE_BASE + 4)
+#define ERRNO_FILE_CLOSE                     (ERRNO_FILE_BASE + 5)
+#define ERRNO_FILE_WRITE                     (ERRNO_FILE_BASE + 6)
+#define ERRNO_FILE_READ                      (ERRNO_FILE_BASE + 7)
+#define ERRNO_FILE_ERASE                     (ERRNO_FILE_BASE + 8)
+#define ERRNO_FILE_CHECK                     (ERRNO_FILE_BASE + 9)
+#define ERRNO_FILE_VER                       (ERRNO_FILE_BASE + 10)
+#define ERRNO_FILE_SEEK                      (ERRNO_FILE_BASE + 11)
+#define ERRNO_FILE_CREATE                    (ERRNO_FILE_BASE + 12)
+#define ERRNO_FILE_CTRL                      (ERRNO_FILE_BASE + 13)
+#define ERRNO_FILE_DATA                      (ERRNO_FILE_BASE + 14)
+#define ERRNO_FILE_TYPE                      (ERRNO_FILE_BASE + 15)
+
+#define ERRNO_FLASH_BASE                     400
+#define ERRNO_FLASH_SEND_CMD                 (ERRNO_FLASH_BASE + 1)
+#define ERRNO_FLASH_RD_DATA                  (ERRNO_FLASH_BASE + 2)
+#define ERRNO_FLASH_WR_DATA                  (ERRNO_FLASH_BASE + 3)
+#define ERRNO_FLASH_WR_ADDR                  (ERRNO_FLASH_BASE + 4)
+#define ERRNO_FLASH_WR_EN                    (ERRNO_FLASH_BASE + 5)
+#define ERRNO_FLASH_WR_DIS                   (ERRNO_FLASH_BASE + 6)
+#define ERRNO_FLASH_WR_TIMEOUT               (ERRNO_FLASH_BASE + 7)
+#define ERRNO_FLASH_ERASE                    (ERRNO_FLASH_BASE + 8)
+#define ERRNO_FLASH_RD_REG                   (ERRNO_FLASH_BASE + 9)
+#define ERRNO_FLASH_WR_REG                   (ERRNO_FLASH_BASE + 10)
+#define ERRNO_FLASH_WR_PAGE                  (ERRNO_FLASH_BASE + 11)
+#define ERRNO_FLASH_OPEN                     (ERRNO_FLASH_BASE + 12)
+#define ERRNO_FLASH_CLOSE                    (ERRNO_FLASH_BASE + 13)
+#define ERRNO_FLASH_LOCK                     (ERRNO_FLASH_BASE + 14)
+#define ERRNO_FLASH_UNLOCK                   (ERRNO_FLASH_BASE + 15)
+#define ERRNO_FLASH_FULL                     (ERRNO_FLASH_BASE + 16)
+
+#define ERRNO_SYS_BASE                       500
+#define ERRNO_MUTEX_INIT                     (ERRNO_SYS_BASE + 1)
+#define ERRNO_MUTEX_LOCK                     (ERRNO_SYS_BASE + 2)
+#define ERRNO_MUTEX_UNLOCK                   (ERRNO_SYS_BASE + 3)
+#define ERRNO_MUTEX_DESTROY                  (ERRNO_SYS_BASE + 4)
+
+#define ERRNO_SEM_INIT                       (ERRNO_SYS_BASE + 20)
+#define ERRNO_SEM_DOWN                       (ERRNO_SYS_BASE + 21)
+#define ERRNO_SEM_UP                         (ERRNO_SYS_BASE + 22)
+#define ERRNO_SEM_DESTROY                    (ERRNO_SYS_BASE + 23)
+#define ERRNO_SEM_CLOSE                      (ERRNO_SYS_BASE + 24)
+#define ERRNO_SEM_UNLINK                     (ERRNO_SYS_BASE + 25)
+#define ERRNO_SEM_TIMEOUT                    (ERRNO_SYS_BASE + 26)
+
+#define ERRNO_MQ_INIT                        (ERRNO_SYS_BASE + 40)
+#define ERRNO_MQ_SEND                        (ERRNO_SYS_BASE + 41)
+#define ERRNO_MQ_RECV                        (ERRNO_SYS_BASE + 42)
+#define ERRNO_MQ_CLOSE                       (ERRNO_SYS_BASE + 43)
+#define ERRNO_MQ_UNLINK                      (ERRNO_SYS_BASE + 44)
+#define ERRNO_MQ_TIMEOUT                     (ERRNO_SYS_BASE + 45)
+
+#define ERRNO_TASK_WAIT                      (ERRNO_SYS_BASE + 61)
+#define ERRNO_TASK_GET_PRIORITY              (ERRNO_SYS_BASE + 62)
+#define ERRNO_TASK_SET_PRIORITY              (ERRNO_SYS_BASE + 63)
+#define ERRNO_TASK_CREATE                    (ERRNO_SYS_BASE + 64)
+
+#define ERRNO_COND_INIT                      (ERRNO_SYS_BASE + 80)
+#define ERRNO_COND_WAIT                      (ERRNO_SYS_BASE + 81)
+
+#define ERRNO_SOCK_BASE                      700
+#define ERRNO_SOCK_OPEN                      (ERRNO_SOCK_BASE + 1)
+#define ERRNO_SOCK_SETIP                     (ERRNO_SOCK_BASE + 2)
+#define ERRNO_SOCK_GETIP                     (ERRNO_SOCK_BASE + 3)
+#define ERRNO_SOCK_SETIPMASK                 (ERRNO_SOCK_BASE + 4)
+#define ERRNO_SOCK_GETIPMASK                 (ERRNO_SOCK_BASE + 5)
+#define ERRNO_SOCK_SETMAC                    (ERRNO_SOCK_BASE + 6)
+#define ERRNO_SOCK_GETMAC                    (ERRNO_SOCK_BASE + 7)
+#define ERRNO_SOCK_SETSTATUS                 (ERRNO_SOCK_BASE + 8)
+#define ERRNO_SOCK_GETSTATUS                 (ERRNO_SOCK_BASE + 9)
+#define ERRNO_SOCK_SEND                      (ERRNO_SOCK_BASE + 10)
+#define ERRNO_SOCK_RECV                      (ERRNO_SOCK_BASE + 11)
+#define ERRNO_SOCK_BIND                      (ERRNO_SOCK_BASE + 12)
+#define ERRNO_SOCK_FCNTL                     (ERRNO_SOCK_BASE + 13)
+#define ERRNO_SOCK_OPTION                    (ERRNO_SOCK_BASE + 14)
+#define ERRNO_SOCK_GETCONF                   (ERRNO_SOCK_BASE + 15)
+
+#endif

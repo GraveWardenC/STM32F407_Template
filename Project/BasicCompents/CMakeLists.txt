@@ -1,0 +1,2 @@
+add_subdirectory(SeggerRTT)
+add_subdirectory(Usart)
